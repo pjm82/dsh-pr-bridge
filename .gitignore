@@ -1,0 +1,16 @@
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# runtime output from the bridge
+out/
+frames/
+*.log
+
+# whisper models are never committed
+model.bin
+*.prproj
+*.srt

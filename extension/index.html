@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>DSH PR Bridge</title>
+<style>
+  html,body{margin:0;padding:0;background:#1e1e1e;color:#d6d6d6;font:12px/1.5 "Segoe UI",sans-serif}
+  #wrap{padding:10px 12px}
+  #dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#666;margin-right:6px}
+  .ok{background:#41c464 !important}
+  .bad{background:#e05252 !important}
+  #log{margin-top:8px;height:110px;overflow:auto;background:#141414;border:1px solid #333;padding:6px;font:11px/1.45 Consolas,monospace;white-space:pre-wrap}
+  .k{color:#7fb2ff}
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div><span id="dot"></span><b>DSH PR Bridge</b> <span id="state">starting…</span></div>
+  <div id="meta"></div>
+  <div id="log"></div>
+</div>
+<script src="./js/CSInterface.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
